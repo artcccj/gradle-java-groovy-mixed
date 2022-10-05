@@ -2,7 +2,7 @@
 
 Spring Boot Java + Groovy MIXED Development
 
-## Groovy plugin
+## plugins
 
 ```groovy
 plugins {
