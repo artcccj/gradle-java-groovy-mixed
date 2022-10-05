@@ -9,7 +9,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers
 class UserControllerTestWithGroovy extends GradleDemoApplicationTests {
 
     @Test
-    void getUserNameById() throws Exception {
+    void getUserNameById() {
 
         mockMvc.perform(MockMvcRequestBuilders.get("/api/user/getUserNameById")
                 .param("userId", "1232"))
