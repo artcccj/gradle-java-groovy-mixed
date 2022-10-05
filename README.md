@@ -26,7 +26,7 @@ sourceSets.main.groovy.srcDirs += ['src/main/java']
 
 ```groovy
 sourceSets.test.java.srcDirs = []
-sourceSets.test.groovy.srcDirs += ['src/main/java']
+sourceSets.test.groovy.srcDirs += ['src/test/java']
 ```
 
 ## Unit Test configuration
